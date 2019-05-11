@@ -90,9 +90,7 @@ public class AmazonTest5 {
 	
 	@AfterTest
 	public void endSession() {
-	
 		driver.quit();	
-		
 	}
 
 }

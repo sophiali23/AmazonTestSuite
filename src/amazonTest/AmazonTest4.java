@@ -42,9 +42,7 @@ public class AmazonTest4 {
 	
 	@AfterTest
 	public void endSession() {
-	
 		driver.quit();	
-		
 	}
 
 }

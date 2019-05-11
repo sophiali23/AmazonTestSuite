@@ -48,16 +48,12 @@ public class AmazonTest1 {
 	
 	@Test
 	public void verifySignInButton() {
-		
 		Assert.assertTrue(driver.findElement(By.id(yourAccountSelector)).getText().contains("Hello. Sign in"));
 		Assert.assertTrue(driver.findElement(By.id(yourAccountSelector)).getText().contains("Your Account"));
-	
 	}
 	
 	@AfterTest
 	public void endSession() {
-		
 		driver.quit();	
-	
 	}
 }

@@ -79,9 +79,7 @@ public class AmazonTest2 {
 	
 	@AfterTest
 	public void endSession() {
-	
 		driver.quit();	
-		
 	}
 
 }
