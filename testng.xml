@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon Test Suite">
+  <test thread-count="5" name="Amazon Tests">
+  	<classes>
+  		<class name="amazonTest.AmazonTest1" />
+  		<class name="amazonTest.AmazonTest2" />
+  		<class name="amazonTest.AmazonTest3" />
+  		<class name="amazonTest.AmazonTest4" />
+  		<class name="amazonTest.AmazonTest5" />
+  	</classes>
+  </test> <!-- Amazon Tests -->
+</suite> <!-- Amazon Test Suite -->
